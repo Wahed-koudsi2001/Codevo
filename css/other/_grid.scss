@@ -1,0 +1,27 @@
+.container {
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 767px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.col-6 {
+    flex-basis: 50%;
+}
+
+.col-4 {
+    flex-basis: 33.3333%;
+    text-align: center;
+}
